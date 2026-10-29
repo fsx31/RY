@@ -1,0 +1,89 @@
+RY™ - Really Yours
+Standard Library & Documentation
+
+Basic
+- print - Output text to the console
+- return - Return a value from a function or script block
+- stop - Confirming that a function or condition block has ended
+- ? - Single-line comment feature (e.g., ? hi)
+
+---
+
+Logic
+- if - Conditional statement; nest for subsequent checks.
+- else - Used right after an if block to handle alternative results
+- else if - Evaluates additional conditions if the preceding ones fail
+- and - Logical conjunction used within if conditions
+- or - Logical disjunction used within if conditions
+
+---
+
+Functions & Control Flow
+- function.wait() - Yields execution for the specified time in milliseconds (or seconds)
+- function.pause() - Temporarily stops the script while saving current variables and line position
+- function.resume() - Resumes a paused script from its saved state
+- do - Block constructor (e.g., do functionName() ... stop)
+
+---
+
+Variables & Data Types
+- var - Declares a local variable accessible only by the current script file
+- int - Stores whole numbers (e.g., 1, 31, 69)
+- float - Stores numbers with decimals (e.g., 1.2, 9.2)
+- boolean - True, false, or null states
+- string - Text values
+- table - Stores values inside {}
+- dictionary - Stores key-value pairs inside []
+- swap - Swaps two variables' values if they share the same type
+- null - Represents a lack of value
+
+---
+
+Loops
+- while - Executes a block while a condition holds true (while condition { something })
+- for - Iterates over a range (for init, max/min increment { something })
+
+---
+
+System (sys)
+- sys - Root namespace object; requires a member selector
+- sys.currentTime - Returns the operating systems current time (HH:MM:SS)
+- sys.currentDate - Returns the operating systems current date
+- sys.FOD - Read-only OS metadata fetcher (e.g., sys.FOD.version, sys.FOD.CPU)
+- sys.close - Terminates the machine session (requires double confirmation)
+
+---
+
+Operators
+- Assignment & Math: = (assign), +=, -=, *=, /=, %=, +, -, *, /, % (remainder)
+- Comparison: == (equals), != (not equals), < (less than), > (greater than), <= (less/equals), >= (greater/equals)
+- Logical: & (and), | (or), ! (not)
+
+---
+
+Math (math)
+- math.pi - Returns the value of Pi
+- math.inf - Returns positive infinity
+- math.round - Rounds a number
+- math.negate - Negates a number
+- math.absolute - Returns the absolute value
+- math.digits - Counts the number of digits in a number
+- math.isnumber - Returns a boolean indicating if a value is a valid number
+- math.iseven - Returns a boolean indicating if a number is even
+
+---
+
+Networking (http)
+- http.get() - Fetches data from a URL
+- http.send() - Sends data to a URL (supersedes http.post())
+- http.put() - Updates data at a URL
+- http.delete() - Deletes data via a URL
+- http.status() - Retrieves the response status code
+- http.headers() - Retrieves response headers
+- http.body() - Retrieves the response body
+- http.download() - Downloads data directly from a URL
+
+---
+
+Module B (b)
+- b.random - Generates a random value (bool, float, string, or int)
